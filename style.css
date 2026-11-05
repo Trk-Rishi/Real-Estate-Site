@@ -281,3 +281,56 @@ body {
     font-size: var(--fs-body-medium);
     line-height: var(--lh-body-medium);
 }
+
+
+
+.logo-mine {
+    height: 28px;
+    width: 190px;
+}
+
+
+
+.material-symbols-rounded {
+    display: block;
+    width: 1em;
+    height: 1em;
+    /* overflow: hidden; */
+    font-variation-settings: 
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;   ;
+}
+
+
+.container {
+    padding-inline: 16px;
+    max-width: 580px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding-inline: 24px;
+    border-radius: var(--radius-full);
+    
+    max-width: max-content;
+    transition: var(--transition-duration-quick) var(--transition-easing-quick);
+}
+
+.btn-fill {
+    background-color: var(--primary-100);
+    color: var(--neutral-100);
+}
+
+.btn-fill:where(:focus, :hover) {
+    background-color: var(--primary-90);
+    box-shadow: var(--shadow-1);
+}
