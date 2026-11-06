@@ -123,7 +123,6 @@
 
 
 
-
 .navbar ul{
     display: flex;
     list-style-type: none;
@@ -132,6 +131,12 @@
 
 .navbar ul li{
     padding: 0px 10px;
+}
+
+.navbar ul li img{
+    cursor: pointer;
+    margin-top: 3px;
+    width: 20px;
 }
 
 
@@ -259,6 +264,7 @@
 .sec1-buttons{
     margin-top: 25px;
     display: flex;
+    padding-bottom: 80px;
     gap: 1rem;
 }
 
@@ -275,4 +281,80 @@
     border: 2px solid white;
     color: white;
     font-weight: bold;
+}
+
+
+
+.sec2-tags {
+
+    background-color: goldenrod;
+    min-height: 20vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec2-tags ul{
+    margin-top: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+}
+
+.sec2-tags ul li{
+    padding: 0 22px;
+    font-weight: bold;
+}
+
+.last-tag{
+    margin-top: 28px;
+    align-self: center;
+    font-weight: bold;
+}
+
+
+.sec2-content{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0b003d;
+}
+
+.sec2-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2-p p{
+    max-width: 50vw;
+    color: white;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.stats-tags{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.stats-tags ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.l1 li{
+    padding: 0 8vw;
+    font-size: 2.5rem;
+
+}
+
+.l2 li{
+    padding: 0 6.7vw;
 }
